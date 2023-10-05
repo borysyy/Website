@@ -22833,3 +22833,8 @@ fieldset:disabled .btn {
 .top-buttons:hover {
   opacity: 50%;
 }
+
+.message-area {
+  height: 200px;
+  resize: none;
+}

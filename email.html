@@ -1,6 +1,7 @@
 <!--
 Website written by: Slava Borysyuk
 -->
+
 <!DOCTYPE html>
 
 <html lang="en-US">
@@ -12,6 +13,7 @@ Website written by: Slava Borysyuk
     <link rel="icon" type="image/x-con" href="favicon_io/favicon.ico">
     <link rel="stylesheet" href="styles.css" />
 </head>
+
 <!---End of head--->
 
 
@@ -20,7 +22,7 @@ Website written by: Slava Borysyuk
     <div class="container-fluid bg-primary">
         <div class="row">
 
-            <div class="col-6 text-sm-start">
+            <div class="col-6">
                 <h1 class="display-4">Yaroslav Borysyuk</h1>
             </div>
 
@@ -31,56 +33,61 @@ Website written by: Slava Borysyuk
         </div>
     </div>
 
-    <div class="container-fluid mt-4">
-        <div class="row ms-1 me-1">
-            <div class="col border border-white">
-                <h3 class="mt-2 display-4 text-center">Contact Information</h3>
-                <h1 class="text-center fs-5">If you would like to contact me fill in the information below
-                    and I'll get back to you
-                </h1>
 
-                <div class="container">
-                    <form action="process_form.php" method="POST">
+    <div class="ms-4 me-4">
 
-                        <div class="row justify-content-center">
-                            <div class="col-lg-4 ">
-                                <div class="mt-4">
-                                    <input type="text" class="form-control" placeholder="Name" name="name"
-                                        required>
-                                </div>
-                            </div>
-                        </div>
+        <div class="container-fluid mt-4 border border-white">
 
-                        <div class="row justify-content-center">
-                            <div class="col-lg-4">
-                                <div class="mt-4">
-                                    <input type="text" class="form-control" placeholder="Email" name="email"
-                                        required>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="row justify-content-center">
-                            <div class="col-lg-6 ">
-                                <div class="mt-4 mb-4">
-                                    <textarea class="form-control col-md-offset-1" rows="5" id="input_text"
-                                        name="text_input" placeholder="Message" required=""></textarea>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </form>
+            <div class="row mt-4">
+                <!-- Header for contact -->
+                <div class="col">
+                    <h3 class="display-4 text-center">Contact Information</h3>
+                    <h1 class="fs-5 text-center">If you would like to contact me fill in the information below
+                        and I'll get back to you
+                    </h1>
                 </div>
 
-
-
-
-
             </div>
+
+            <form name="contact-form" action="process_form.php" method="POST">
+
+                <div class="row justify-content-center mt-4">
+                    <!-- Name form -->
+                    <div class="col-3">
+                        <input type="text" class="form-control" placeholder="Name" required>
+                    </div>
+
+                    <!-- Email form -->
+                    <div class="col-3">
+                        <input type="text" class="form-control" placeholder="Email" name="email" required>
+                    </div>
+                </div>
+
+                <!-- Subject form -->
+                <div class="row justify-content-center mt-4">
+                    <div class="col-6">
+                        <input type="text" class="form-control" placeholder="Subject" name="subject" required>
+                    </div>
+                </div>
+
+                <!-- Message form -->
+                <div class="row justify-content-center">
+                    <div class="col-6 mt-4 mb-4">
+                        <textarea class="form-control col-md-offset-1 message-area" rows="5" id="input_text"
+                            name="text_input" placeholder="Message" required></textarea>
+                    </div>
+                </div>
+
+            </form>
+
+
         </div>
     </div>
+
+
+
+
+
 
 
 
