@@ -3,13 +3,13 @@ $primary: $red-700;
 $enable-negative-margins: true;
 
 .top-buttons:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .message-area {
-    height: 200px;
-    resize: none;
+  height: 200px;
+  resize: none;
 }
 
-@import "../node_modules/bootstrap/scss/bootstrap";
-@import "../node_modules/bootstrap-icons/font/bootstrap-icons"
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../../node_modules/bootstrap-icons/font/bootstrap-icons';
