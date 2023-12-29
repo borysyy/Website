@@ -1,8 +1,20 @@
 // src/components/ui/Header.js
 import React from 'react'
 import Navbar from './Navbar'
+import { useLocation } from 'react-router-dom'
 
 const Header = () => {
+    const location = useLocation()
+
+ const headingMap = {
+    '/education': { text: 'Education', className: 'text-end display-4' },
+    '/experience': { text: 'Experience', className: 'text-end display-4' },
+    '/contact': { text: 'Contact', className: 'text-end display-4' },
+    '/': { text: 'Syracuse, NY', className: 'text-end display-4' }, // Root path
+  }
+
+  const { text, className } = headingMap[location.pathname] || headingMap['/']
+
   return (
     <div className="bg-primary">
       <div className="row">
@@ -11,6 +23,9 @@ const Header = () => {
           <div>
             <Navbar />
           </div>
+        </div>
+        <div className="col-8 d-flex justify-content-end ">
+          <h1 className={className}>{text}</h1>
         </div>
       </div>
     </div>

@@ -2,11 +2,7 @@
 import React from 'react'
 
 const Education = () => {
-  return (
-    <div>
-      <h2>Education Page</h2>
-    </div>
-  )
+  return <div></div>
 }
 
 export default Education

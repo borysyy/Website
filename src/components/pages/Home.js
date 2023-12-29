@@ -3,10 +3,10 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className="container text-center mt-4">
-      <div className="row row-cols-2">
-        <div className="col border border-white">
-          <h3 className="mt-2 display-4">About Me</h3>
+    <div className="container mt-4">
+      <div className="row">
+        <div className="col-md-6 border border-white">
+          <h3 className="mt-2 display-4 text-center">About Me</h3>
           <p className="fs-4">
             I am an upcoming computer programmer in an accelerated BS/MS
             Computer and Information Science program at SUNY Polytechnic
