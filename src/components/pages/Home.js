@@ -1,13 +1,16 @@
 // src/components/pages/Home.js
+
+
 import React from 'react'
 
 const Home = () => {
   return (
-    <div className="container mt-4">
-      <div className="row">
-        <div className="col-md-6 border border-white">
-          <h3 className="mt-2 display-4 text-center">About Me</h3>
-          <p className="fs-4">
+    <div className="container marketing">
+      <div className="row featurette ">
+        {/* First Featurette */}
+        <div className="col-md-7">
+          <h2 className="featurette-heading">About Me</h2>
+          <p className="lead">
             I am an upcoming computer programmer in an accelerated BS/MS
             Computer and Information Science program at SUNY Polytechnic
             Institute in Utica, NY. I’m in my third year at SUNY Poly and
@@ -23,16 +26,50 @@ const Home = () => {
             SUNY Poly.
           </p>
         </div>
-
-        <div className="col">
+        <div className="col-md-5 mt-4">
           <img
+            className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
             src={require('../../pictures/pfp.JPG').default}
-            width="90%"
-            height="100%"
-            alt="Profile"
+            width="500"
+            height="500"
+            role="img"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
           />
+          <title>Placeholder</title>
         </div>
       </div>
+
+      <hr className="featurette-divider" />
+
+      <div className="row featurette">
+        <div className="col-md-7 order-md-2">
+          <h2 className="featurette-heading">
+            Oh yeah, it’s that good.{' '}
+            <span className="text-muted">See for yourself.</span>
+          </h2>
+          <p className="lead">
+            Another featurette? Of course. More placeholder content here to give
+            you an idea of how this layout would work with some actual
+            real-world content in place.
+          </p>
+        </div>
+        <div className="col-md-5 order-md-1">
+          <img
+            className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500"
+            height="500"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          />
+          <title>Placeholder</title>
+        </div>
+      </div>
+
+      {/* Add more featurettes similarly */}
     </div>
   )
 }
