@@ -1,11 +1,86 @@
 // src/components/pages/Home.js
 
-
 import React from 'react'
 
 const Home = () => {
   return (
     <div className="container marketing">
+      <div class="row mt-4 ">
+        <div class="col-lg-4">
+          <img
+            src={require('../../pictures/Github_pfp.png').default}
+            width="140"
+            height="140"
+            role="img"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          />
+          <title>Placeholder</title>
+
+          <h2>GitHub</h2>
+          <p>
+            Some representative placeholder content for the three columns of
+            text below the carousel. This is the first column.
+          </p>
+          <p>
+            <a
+              class="btn btn-secondary"
+              href="https://getbootstrap.com/docs/5.0/examples/carousel/#"
+            >
+              View details »
+            </a>
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img
+            src={require('../../pictures/Linkedin_pfp.png').default}
+            width="140"
+            height="140"
+            role="img"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          />
+
+          <h2>Linkedin</h2>
+          <p>
+            Another exciting bit of representative placeholder content. This
+            time, we've moved on to the second column.
+          </p>
+          <p>
+            <a
+              class="btn btn-secondary"
+            >
+              View details »
+            </a>
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img
+            src={require('../../pictures/Linkedin_pfp.png').default}
+            width="140"
+            height="140"
+            role="img"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          />
+
+          <h2>Resume</h2>
+          <p>
+            And lastly this, the third column of representative placeholder
+            content.
+          </p>
+          <p>
+            <a
+              class="btn btn-secondary"
+              href="https://getbootstrap.com/docs/5.0/examples/carousel/#"
+            >
+              View details »
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <hr className="featurette-divider"></hr>
       <div className="row featurette ">
         {/* First Featurette */}
         <div className="col-md-7">
@@ -28,48 +103,17 @@ const Home = () => {
         </div>
         <div className="col-md-5 mt-4">
           <img
-            className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-            src={require('../../pictures/pfp.JPG').default}
+            className="img-fluid mx-auto"
+            src={require('../../pictures/Slava_pfp.jpg').default}
             width="500"
             height="500"
             role="img"
             preserveAspectRatio="xMidYMid slice"
             focusable="false"
           />
-          <title>Placeholder</title>
+          <title>PFP</title>
         </div>
       </div>
-
-      <hr className="featurette-divider" />
-
-      <div className="row featurette">
-        <div className="col-md-7 order-md-2">
-          <h2 className="featurette-heading">
-            Oh yeah, it’s that good.{' '}
-            <span className="text-muted">See for yourself.</span>
-          </h2>
-          <p className="lead">
-            Another featurette? Of course. More placeholder content here to give
-            you an idea of how this layout would work with some actual
-            real-world content in place.
-          </p>
-        </div>
-        <div className="col-md-5 order-md-1">
-          <img
-            className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-            width="500"
-            height="500"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          />
-          <title>Placeholder</title>
-        </div>
-      </div>
-
-      {/* Add more featurettes similarly */}
     </div>
   )
 }
