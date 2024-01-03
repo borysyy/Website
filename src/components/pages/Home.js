@@ -15,21 +15,8 @@ const Home = () => {
             preserveAspectRatio="xMidYMid slice"
             focusable="false"
           />
-          <title>Placeholder</title>
 
-          <h2>GitHub</h2>
-          <p>
-            Some representative placeholder content for the three columns of
-            text below the carousel. This is the first column.
-          </p>
-          <p>
-            <a
-              class="btn btn-secondary"
-              href="https://getbootstrap.com/docs/5.0/examples/carousel/#"
-            >
-              View details »
-            </a>
-          </p>
+          <h2 className="link-headings">GitHub</h2>
         </div>
         <div class="col-lg-4">
           <img
@@ -41,22 +28,11 @@ const Home = () => {
             focusable="false"
           />
 
-          <h2>Linkedin</h2>
-          <p>
-            Another exciting bit of representative placeholder content. This
-            time, we've moved on to the second column.
-          </p>
-          <p>
-            <a
-              class="btn btn-secondary"
-            >
-              View details »
-            </a>
-          </p>
+          <h2 className="link-headings">LinkedIn</h2>
         </div>
         <div class="col-lg-4">
           <img
-            src={require('../../pictures/Linkedin_pfp.png').default}
+            src={require('../../pictures/Resume_pfp.png').default}
             width="140"
             height="140"
             role="img"
@@ -64,19 +40,7 @@ const Home = () => {
             focusable="false"
           />
 
-          <h2>Resume</h2>
-          <p>
-            And lastly this, the third column of representative placeholder
-            content.
-          </p>
-          <p>
-            <a
-              class="btn btn-secondary"
-              href="https://getbootstrap.com/docs/5.0/examples/carousel/#"
-            >
-              View details »
-            </a>
-          </p>
+          <h2 className="link-headings">Resume</h2>
         </div>
       </div>
 
@@ -92,10 +56,10 @@ const Home = () => {
             currently working as an undergraduate assistant under Professor
             William Confer. I have four years of job experience at Marshalls and
             Homegoods in Fairmount, New York. I have acquired many skills that I
-            will use in my future computer science position. The skills include
+            will use in my future computer science position, including
             multi-tasking, teamwork, time management, organization, and
-            patience. Retail has taught me a lot personally, and it has given me
-            skills that I will keep forever. My anticipated graduation date for
+            patience. Retail has taught me a lot personally, and it has supplied me
+            with experiences that I will keep forever. My anticipated graduation date for
             my Bachelor’s is December 2024, and for my Master’s, December 2025.
             I want to get as much experience as possible before graduating from
             SUNY Poly.
