@@ -1,7 +1,13 @@
 import React from 'react'
 
 const Contact = () => {
-  return <div></div>
+  return (
+<div>
+  In development
+</div>
+
+
+  )
 }
 
 export default Contact

@@ -1,49 +1,12 @@
 // src/components/pages/Home.js
 
 import React from 'react'
+import Links from '../ui/Links'
 
 const Home = () => {
   return (
     <div className="container marketing">
-      <div class="row mt-4 ">
-        <div class="col-lg-4">
-          <img
-            src={require('../../pictures/Github_pfp.png').default}
-            width="140"
-            height="140"
-            role="img"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          />
-
-          <h2 className="link-headings">GitHub</h2>
-        </div>
-        <div class="col-lg-4">
-          <img
-            src={require('../../pictures/Linkedin_pfp.png').default}
-            width="140"
-            height="140"
-            role="img"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          />
-
-          <h2 className="link-headings">LinkedIn</h2>
-        </div>
-        <div class="col-lg-4">
-          <img
-            src={require('../../pictures/Resume_pfp.png').default}
-            width="140"
-            height="140"
-            role="img"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          />
-
-          <h2 className="link-headings">Resume</h2>
-        </div>
-      </div>
-
+      <Links />
       <hr className="featurette-divider"></hr>
       <div className="row featurette ">
         {/* First Featurette */}
@@ -58,11 +21,11 @@ const Home = () => {
             Homegoods in Fairmount, New York. I have acquired many skills that I
             will use in my future computer science position, including
             multi-tasking, teamwork, time management, organization, and
-            patience. Retail has taught me a lot personally, and it has supplied me
-            with experiences that I will keep forever. My anticipated graduation date for
-            my Bachelor’s is December 2024, and for my Master’s, December 2025.
-            I want to get as much experience as possible before graduating from
-            SUNY Poly.
+            patience. Retail has taught me a lot personally, and it has supplied
+            me with experiences that I will keep forever. My anticipated
+            graduation date for my Bachelor’s is December 2024, and for my
+            Master’s, December 2025. I want to get as much experience as
+            possible before graduating from SUNY Poly.
           </p>
         </div>
         <div className="col-md-5 mt-4">
