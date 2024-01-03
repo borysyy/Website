@@ -1,13 +1,8 @@
 import React from 'react'
+import EmailForm from '../forms/EmailForm'
 
 const Contact = () => {
-  return (
-<div>
-  In development
-</div>
-
-
-  )
+  return <EmailForm />
 }
 
 export default Contact
