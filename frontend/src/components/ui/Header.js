@@ -1,6 +1,5 @@
 import React from 'react'
-// import Navbar from './Navbar'
-import BasicExample from './BasicExample'
+import Navigation from './Navigation'
 import { useLocation } from 'react-router-dom'
 
 const Header = () => {
@@ -22,7 +21,7 @@ const Header = () => {
           <div className="col-4">
             <h1 className="display-4">Yaroslav Borysyuk</h1>
             <div>
-              <BasicExample />
+              <Navigation />
             </div>
           </div>
           <div className="col-8 justify-content-end">
