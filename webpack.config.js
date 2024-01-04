@@ -10,10 +10,13 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(png|svg|jpg|gif|pdf)$/,
         use: [
           {
             loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+            },
           },
         ],
       },
@@ -40,6 +43,6 @@ module.exports = {
       directory: path.join(__dirname, 'dist'),
     },
     hot: true,
-     historyApiFallback: true,
+    historyApiFallback: true,
   },
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import ResumePdf from '../../documents/resume.pdf'
 
 const Links = () => {
   return (
@@ -38,11 +39,7 @@ const Links = () => {
         <h2 className="link-headings">LinkedIn</h2>
       </div>
       <div className="col-lg-4">
-        <a
-          href="../../documents/resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={ResumePdf} target="_blank" rel="noopener noreferrer">
           <img
             src={require('../../pictures/Resume_pfp.png').default}
             width="140"
