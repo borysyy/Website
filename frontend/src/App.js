@@ -4,6 +4,7 @@ import Header from './components/ui/Header'
 import Home from './components/pages/Home'
 import Education from './components/pages/Education'
 import Experience from './components/pages/Experience'
+import Interests from './components/pages/Interests'
 import Contact from './components/pages/Contact'
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/education" element={<Education />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/interests" element={<Interests />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>

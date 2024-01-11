@@ -9,6 +9,7 @@ const Header = () => {
     '/education': { text: 'Education', className: 'text-end display-4' },
     '/experience': { text: 'Experience', className: 'text-end display-4' },
     '/contact': { text: 'Contact', className: 'text-end display-4' },
+    '/interests': { text: 'Interests', className: 'text-end display-4' },
     '/': { text: 'Syracuse, NY', className: 'text-end display-4' }, // Root path
   }
 

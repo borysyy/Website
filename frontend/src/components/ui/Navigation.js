@@ -21,6 +21,9 @@ function Navigation() {
             <Nav.Link as={Link} to="/experience">
               Experience
             </Nav.Link>
+            <Nav.Link as={Link} to="/interests">
+              Interests
+            </Nav.Link>
             <Nav.Link as={Link} to="/contact">
               Contact
             </Nav.Link>
