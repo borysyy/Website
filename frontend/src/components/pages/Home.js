@@ -12,20 +12,30 @@ const Home = () => {
         {/* First Featurette */}
         <div className="col-md-7">
           <h2 className="featurette-heading">About Me</h2>
+          <p className="lead paragraph-margin">
+            I am a senior enrolled in the accelerated BS/MS Computer and
+            Information Science program at SUNY Polytechnic Institute, Utica,
+            NY. As an undergraduate assistant under the mentorship of William
+            Confer, and my studies at SUNY Poly, I've had the opportunity to
+            develop a well-rounded understanding of computer science principles.
+          </p>
+
+          <p className="lead paragraph-margin">
+            My passion for technology extends across various domains, with a
+            particular focus on computer architecture, web development, AI, and
+            the Internet of Things. Whether it's designing efficient systems,
+            creating dynamic and user-friendly websites, or exploring the
+            endless possibilities of AI, I thrive on the dynamic challenges
+            posed by the rapidly evolving field of computer science.
+          </p>
+
           <p className="lead">
-            I am an upcoming computer programmer in an accelerated BS/MS
-            Computer and Information Science program at SUNY Polytechnic
-            Institute in Utica, NY. I’m in my third year at SUNY Poly and
-            currently working as an undergraduate assistant under Professor
-            William Confer. I have four years of job experience at Marshalls and
-            Homegoods in Fairmount, New York. I have acquired many skills that I
-            will use in my future computer science position, including
-            multi-tasking, teamwork, time management, organization, and
-            patience. Retail has taught me a lot personally, and it has supplied
-            me with experiences that I will keep forever. My anticipated
-            graduation date for my Bachelor’s is December 2024, and for my
-            Master’s, December 2025. I want to get as much experience as
-            possible before graduating from SUNY Poly.
+            Currently, on track to graduate with a bachelor's degree in December
+            2024 and a master's in December 2025, I am actively seeking a Summer
+            2024 position in computer science to further apply and expand my
+            knowledge. My hands-on experience, combined with a solid academic
+            foundation, equips me to contribute effectively to innovative
+            projects.
           </p>
         </div>
         <div className="col-md-5 mt-4">
