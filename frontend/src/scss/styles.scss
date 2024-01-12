@@ -2,11 +2,6 @@ $red-700: #96242f;
 $primary: $red-700;
 $enable-negative-margins: true;
 
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -16,28 +11,20 @@ $enable-negative-margins: true;
   font-weight: 400;
 }
 
-/* rtl:begin:ignore */
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-}
-
 .link-headings {
-margin-top: 4px;
+  @extend .mt-1;
 }
 
 /* Featurettes
 ------------------------- */
 
 .featurette-divider {
-  margin: 1rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 1rem 0; 
 }
 
 /* Thin out the marketing headings */
 .featurette-heading {
-  font-weight: 300;
   line-height: 1;
-  /* rtl:remove */
   letter-spacing: -.05rem;
 }
 
@@ -45,16 +32,16 @@ margin-top: 4px;
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 40em) {
-  
+@media (min-width: 20em) {
   .featurette-heading {
-    font-size: 50px;
+    font-size: 30px;
+    margin-top: 1rem;
   }
 }
 
-@media (min-width: 62em) {
+@media (min-width: 40em) {
   .featurette-heading {
-    margin-top: 7rem;
+    font-size: 50px;
   }
 }
 
@@ -63,9 +50,12 @@ margin-top: 4px;
 }
 
 /*Interests Page*/
-
 .interests-header {
   max-width: 700px;
+  @extend .px-3;
+  @extend .py-3;
+  @extend .mx-auto;
+  @extend .text-center;
 }
 
 /*Cards UI*/

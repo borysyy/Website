@@ -1,7 +1,4 @@
 @charset "UTF-8";
-/* MARKETING CONTENT
--------------------------------------------------- */
-/* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4, .marketing .cards-column {
   margin-bottom: 1.5rem;
   text-align: center; }
@@ -9,35 +6,25 @@
 .marketing h2, .marketing .h2 {
   font-weight: 400; }
 
-/* rtl:begin:ignore */
-.marketing .col-lg-4 p, .marketing .cards-column p {
-  margin-right: .75rem;
-  margin-left: .75rem; }
-
-.link-headings {
-  margin-top: 4px; }
-
 /* Featurettes
 ------------------------- */
 .featurette-divider {
-  margin: 1rem 0;
-  /* Space out the Bootstrap <hr> more */ }
+  margin: 1rem 0; }
 
 /* Thin out the marketing headings */
 .featurette-heading {
-  font-weight: 300;
   line-height: 1;
-  /* rtl:remove */
   letter-spacing: -.05rem; }
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+@media (min-width: 20em) {
+  .featurette-heading {
+    font-size: 30px;
+    margin-top: 1rem; } }
 @media (min-width: 40em) {
   .featurette-heading {
     font-size: 50px; } }
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem; } }
 .paragraph-margin {
   margin-bottom: 10px; }
 
@@ -6629,7 +6616,7 @@ textarea.form-control-lg {
   margin-right: 3rem !important;
   margin-left: 3rem !important; }
 
-.mx-auto, .cards {
+.mx-auto, .interests-header, .cards {
   margin-right: auto !important;
   margin-left: auto !important; }
 
@@ -6664,7 +6651,7 @@ textarea.form-control-lg {
 .mt-0 {
   margin-top: 0 !important; }
 
-.mt-1 {
+.mt-1, .link-headings {
   margin-top: 0.25rem !important; }
 
 .mt-2 {
@@ -6890,7 +6877,7 @@ textarea.form-control-lg {
   padding-right: 0.5rem !important;
   padding-left: 0.5rem !important; }
 
-.px-3 {
+.px-3, .interests-header {
   padding-right: 1rem !important;
   padding-left: 1rem !important; }
 
@@ -6914,7 +6901,7 @@ textarea.form-control-lg {
   padding-top: 0.5rem !important;
   padding-bottom: 0.5rem !important; }
 
-.py-3 {
+.py-3, .interests-header {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important; }
 
@@ -7118,7 +7105,7 @@ textarea.form-control-lg {
 .text-end {
   text-align: right !important; }
 
-.text-center {
+.text-center, .interests-header {
   text-align: center !important; }
 
 .text-decoration-none {
