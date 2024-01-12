@@ -68,10 +68,31 @@ margin-top: 4px;
   max-width: 700px;
 }
 
+/*Cards UI*/
+.cards-container {
+  @extend .container-fluid;
+  @extend .d-flex;
+  @extend .justify-content-center;
+}
+
+.cards-column {
+  @extend .col-lg-4;
+  @extend .mb-2;
+  @extend .d-flex;
+}
+
 .cards {
   width: 18rem;
-  
+  @extend .mx-auto;
+  @extend .flex-fill;
 }
+
+.cards-body {
+  @extend .d-flex;
+  @extend .flex-column;
+}
+
+
 
 @import '../../node_modules/bootstrap/scss/bootstrap';
 @import '../../node_modules/bootstrap-icons/font/bootstrap-icons';

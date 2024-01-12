@@ -59,7 +59,7 @@ const Education = () => {
         <div className="col-md-5 order-md-1">
           <img
             className="img-fluid mx-auto"
-            src={require('../../pictures/Classes_pfp.jpg').default}
+            src={require('../../pictures/Education/Classes_pfp.jpg').default}
             width="500"
             height="500"
             role="img"

@@ -1,7 +1,5 @@
-// src/components/pages/Home.js
-
 import React from 'react'
-import Links from '../ui/Links'
+import Links from '../ui/Home/Links'
 
 const Home = () => {
   return (
@@ -9,7 +7,6 @@ const Home = () => {
       <Links />
       <hr className="featurette-divider"></hr>
       <div className="row featurette ">
-        {/* First Featurette */}
         <div className="col-md-7">
           <h2 className="featurette-heading">About Me</h2>
           <p className="lead paragraph-margin">
@@ -41,7 +38,7 @@ const Home = () => {
         <div className="col-md-5 mt-4">
           <img
             className="img-fluid mx-auto"
-            src={require('../../pictures/Slava_pfp.jpg').default}
+            src={require('../../pictures/Home/Slava_pfp.jpg').default}
             width="500"
             height="500"
             role="img"

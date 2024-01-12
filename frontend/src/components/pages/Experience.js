@@ -72,7 +72,7 @@ const Experience = () => {
         <div className="col-md-5 order-md-1">
           <img
             className="img-fluid mx-auto"
-            src={require('../../pictures/Marshalls_pfp.png').default}
+            src={require('../../pictures/Experience/Marshalls_pfp.png').default}
             width="500"
             height="500"
             role="img"

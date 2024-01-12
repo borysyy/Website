@@ -1,5 +1,5 @@
 import React from 'react'
-import ResumePdf from '../../documents/resume.pdf'
+import ResumePdf from '../../../documents/resume.pdf'
 
 const Links = () => {
   return (
@@ -11,7 +11,7 @@ const Links = () => {
           rel="noopener noreferrer"
         >
           <img
-            src={require('../../pictures/Github_pfp.png').default}
+            src={require('../../../pictures/Home/Links/Github_pfp.png').default}
             width="140"
             height="140"
             role="img"
@@ -28,7 +28,7 @@ const Links = () => {
           rel="noopener noreferrer"
         >
           <img
-            src={require('../../pictures/Linkedin_pfp.png').default}
+            src={require('../../../pictures/Home/Links/Linkedin_pfp.png').default}
             width="140"
             height="140"
             role="img"
@@ -41,7 +41,7 @@ const Links = () => {
       <div className="col-lg-4">
         <a href={ResumePdf} target="_blank" rel="noopener noreferrer">
           <img
-            src={require('../../pictures/Resume_pfp.png').default}
+            src={require('../../../pictures/Home/Links/Resume_pfp.png').default}
             width="140"
             height="140"
             role="img"
