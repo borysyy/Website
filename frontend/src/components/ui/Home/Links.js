@@ -28,7 +28,9 @@ const Links = () => {
           rel="noopener noreferrer"
         >
           <img
-            src={require('../../../pictures/Home/Links/Linkedin_pfp.png').default}
+            src={
+              require('../../../pictures/Home/Links/Linkedin_pfp.png').default
+            }
             width="140"
             height="140"
             role="img"

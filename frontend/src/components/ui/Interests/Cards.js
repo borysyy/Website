@@ -38,13 +38,13 @@ const Cards = () => {
         </div>
         <div className="cards-column">
           <Card className="cards">
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img
+              variant="top"
+              src={require('../../../pictures/Cards/oppenheimer.jpg').default}
+            />
             <Card.Body className="cards-body">
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
+              <Card.Title>Movies</Card.Title>
+              <Card.Text>My favorite movies</Card.Text>
               <Button variant="primary" className="mt-auto">
                 Go somewhere
               </Button>
