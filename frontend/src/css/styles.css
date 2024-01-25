@@ -45,6 +45,13 @@
 /*Cards UI*/
 .cards {
   width: 18rem;
+  height: 100%;
+}
+
+.cards img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 /*!

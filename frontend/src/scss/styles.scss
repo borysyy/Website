@@ -73,6 +73,7 @@ $enable-negative-margins: true;
 
 .cards {
   width: 18rem;
+  height: 100%;
   @extend .mx-auto;
   @extend .flex-fill;
 }
@@ -80,6 +81,12 @@ $enable-negative-margins: true;
 .cards-body {
   @extend .d-flex;
   @extend .flex-column;
+}
+
+.cards img {
+  object-fit: cover; // Maintain aspect ratio while covering the entire area
+  height: 100%; // Fill the entire height of the card
+  width: 100%; // Fill the entire width of the card
 }
 
 

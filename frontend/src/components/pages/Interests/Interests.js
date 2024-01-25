@@ -1,5 +1,5 @@
 import React from 'react'
-import Cards from '../../ui/Interests/Cards'
+import CSCards from '../../ui/Interests/CSCards'
 
 const Interests = () => {
   return (
@@ -10,8 +10,12 @@ const Interests = () => {
           Ranging from computer science related topics, to TV shows and movies.
         </p>
       </div>
+      <div className="interests-header"
+      >
+        <h1 className="display-4">Computer science  </h1>
+      </div>
       <div>
-        <Cards />
+        <CSCards />
       </div>
     </div>
   )
