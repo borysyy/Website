@@ -43,8 +43,10 @@ const Education = () => {
         <div className="col-md-7 order-md-2">
           <h2 className="featurette-heading">Relevant Courses </h2>
           <ul className="lead">
+            <li>NCS-205: Intro. to Linux</li>
             <li>MAT-115: Finite Mathematics</li>
             <li>MAT-151: Calculus 1</li>
+            <li>MAT-152: Calculus 2</li>
             <li>CS-220: Computer Organization</li>
             <li>CS-240: Data Structures and Algorithms - C++</li>
             <li>CS-249: Object-Oriented Programming - Java</li>
@@ -52,7 +54,9 @@ const Education = () => {
             <li>CS-350: Information and Knowledge Management - SQL</li>
             <li>CS-370: Software Engineering - C++, Tiny Graphics Library</li>
             <li>CS-431: Principles of Programming Languages - C++/Prolog</li>
+            <li>CS-441: Computer Systems Architecture - C++</li>
             <li>CS-518: Prompt Software Engineering - C++/Python/ChatGPT</li>
+            <li>CS-521: Operating Systems</li>
             <li>CS-548: Image Generation and Translation - Python</li>
           </ul>
         </div>

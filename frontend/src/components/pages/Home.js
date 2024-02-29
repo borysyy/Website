@@ -13,29 +13,28 @@ const Home = () => {
         <div className="col-md-7">
           <h2 className="featurette-heading">About Me</h2>
           <p className="lead paragraph-margin">
-            I am a senior enrolled in the accelerated BS/MS Computer and
-            Information Science program at SUNY Polytechnic Institute, Utica,
-            NY. As an undergraduate assistant under the mentorship of William
-            Confer, and my studies at SUNY Poly, I've had the opportunity to
-            develop a well-rounded understanding of computer science principles.
+            As a senior in the accelerated BS/MS Computer and Information
+            Science program at SUNY Polytechnic Institute, I am passionate about
+            learning and applying computer science principles across various
+            domains. I am on track to graduate with a bachelor's degree in
+            December 2024 and a master's in December 2025, and I am eager to
+            pursue a summer 2024 position in computer science that will
+            challenge and enhance my skills and knowledge.
           </p>
 
           <p className="lead paragraph-margin">
-            My passion for technology extends across various domains, with a
-            particular focus on computer architecture, web development, AI, and
-            the Internet of Things. Whether it's designing efficient systems,
-            creating dynamic and user-friendly websites, or exploring the
-            endless possibilities of AI, I thrive on the dynamic challenges
-            posed by the rapidly evolving field of computer science.
-          </p>
-
-          <p className="lead">
-            Currently, on track to graduate with a bachelor's degree in December
-            2024 and a master's in December 2025, I am actively seeking a Summer
-            2024 position in computer science to further apply and expand my
-            knowledge. My hands-on experience, combined with a solid academic
-            foundation, equips me to contribute effectively to innovative
-            projects.
+            Since September 2023, I have been working as a research assistant
+            under the mentorship of Dr. William Confer, designing, developing,
+            and testing a web-based infrastructure for a unique programming
+            competition model. I have been utilizing frameworks like Bootstrap
+            and React, tools like Node and Bash, and GitHub for version control.
+            I have also been developing Docker images for running code files.
+            Through this experience, I have gained valuable exposure to web
+            development, project management, and collaboration. Additionally, I
+            have a strong interest and proficiency in Linux, computer
+            architecture, and operating systems, which are my favorite topics in
+            computer science. I hope to make a future career out of them and
+            contribute to innovative projects in these fields.
           </p>
         </div>
         <div className="col-md-5 mt-4">
