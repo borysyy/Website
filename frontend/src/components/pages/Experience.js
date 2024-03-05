@@ -32,21 +32,24 @@ const Experience = () => {
               Bash Scripting: Developed a bash script integrated within Docker
               containers to execute user code efficiently. The script detects
               the language of the user's program by its extension, compiles if
-              necessary, runs the program, and redirects any stdout and stderr to a text file.
-              The file content is then transmitted back to the server and stored
-              in a database under the respective player and team. The player receives
-              their program's output alongside their team's output on their
-              screen.
+              necessary, runs the program, and redirects any stdout and stderr
+              to a text file. The file content is then transmitted back to the
+              server and stored in a database under the respective player and
+              team. The player receives their program's output alongside their
+              team's output on their screen.
             </li>
 
             <li>
-              Web Development: Utilizing frameworks like Bootstrap and React was
-              instrumental. Overcoming initial hurdles with these frameworks
-              proved enlightening as I discovered their power in optimizing the
-              website's responsiveness and enhancing the overall user
-              experience. Integrating Bootstrap for streamlined design and React
-              for dynamic components significantly bolstered the website's
-              functionality.
+              Web Development: By leveraging Bootstrap's extensive library of
+              pre-built components and responsive grid system, I ensured that
+              websites not only look great but also perform flawlessly across
+              various devices and screen sizes. 
+              In bridging the gap between frontend and backend development, I relied on tools like EJS
+              (Embedded JavaScript) to streamline the process. EJS facilitates
+              the dynamic generation of HTML content, allowing for seamless
+              integration of server-side logic with client-side presentation.
+              This not only enhances development efficiency but also ensures a
+              smoother user experience.
             </li>
           </ul>
         </div>
